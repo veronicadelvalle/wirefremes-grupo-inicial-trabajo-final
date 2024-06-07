@@ -1,0 +1,177 @@
+/* BARRA DE NAVEGACION */
+
+.navigation-bar,
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-bar {
+  width: 100%;
+  height: 10rem;
+}
+
+.nav-search {
+  height: 100%;
+  gap: 2rem;
+}
+
+.navigation a {
+  display: inline-block;
+  width: 15rem;
+  height: 2rem;
+  background-color: var(--color-gray);
+  margin-right: 1rem;
+}
+
+.navigation a:last-child {
+  margin-right: 0;
+}
+
+.search i {
+  color: var(--color-gray);
+  vertical-align:.5rem;
+}
+
+/* MAIN Y ASIDE*/
+.container {
+  display: flex;
+  gap: 4rem;
+}
+
+/* MAIN */
+main {
+  width: 70%;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.info-img {
+  width: 100%;
+  height: 40rem;
+  margin-bottom: 3rem;
+
+  position: relative;
+}
+
+.info-img > div {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  width: 100%;
+  height: 50rem;
+}
+
+.description img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Banner */
+.banner {
+  width: 100%;
+
+  position: relative;
+}
+
+/* Artículos relacionados */
+.card {
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 10rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card h2 {
+  position: static;
+  height: initial;
+  margin-bottom: 1rem;
+}
+
+.card-box {
+  width: 22.5%;
+  overflow: hidden;
+}
+
+
+/* Comentarios */
+.comment {
+  height: 15rem;
+  margin-bottom: 10rem;
+}
+
+.comment h2 {
+  position: static;
+}
+
+/* ASIDE */
+aside {
+  width: 30%;
+}
+
+.box {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.square {
+  width: 100%;
+  height: 35rem;
+}
+
+.rectangle {
+  height: 10rem;
+}
+
+/* FOOTER*/
+
+footer {
+  height: auto;
+  background-color: var(--color-gray);
+  padding: 5rem 0;
+}
+
+.footer-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+.box-f {
+  width: 25%;
+  height: 15rem;
+}
+
+.company-information h3 {
+  height: 40%;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.company-information > div {
+  height: 60%;
+}
+
+.circle span {
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #e4e4e4;
+  border-radius: 50%;
+  margin-right: .85rem;
+}
+
+.circle span:last-child {
+  margin-right: 0;
+}
